@@ -1,13 +1,14 @@
-<meta charset="utf-8" />
-<meta
-name="viewport"
-content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
+#viewDiv canvas {
+  filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+}
 
-<title>Intro to CSVLayer | Sample | ArcGIS API for JavaScript 4.18</title>
-    
-<link
-rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css"/>
-<script src="https://js.arcgis.com/4.18/"></script>
-
-<div id="viewDiv"></div>
 
